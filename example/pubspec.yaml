@@ -1,0 +1,13 @@
+name: app
+description: Example project for src_lint package.
+publish_to: none
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+
+dev_dependencies:
+  custom_lint:
+  src_lint:
+    path: ../src_lint
